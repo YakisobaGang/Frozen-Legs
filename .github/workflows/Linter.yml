@@ -1,0 +1,27 @@
+name: Linter
+
+on: push
+
+jobs:
+  super-lint:
+
+    name: Lint code base
+
+    runs-on: ubuntu-latest
+    env:
+      working-directory : ./PI-Quarto-Semestre/    
+    
+    steps:
+      - uses: actions/checkout@v2
+      - run: git pull
+      - run: dotnet tool install -g dotnet-format
+      - name: format
+        run: dotnet-format -f Assets/Scripts -v d
+        working-directory: ${{env.working-directory}}
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v5
+        with:
+          message: "[Bot-Linter] Automated dotnet-format update"
+          add: "*.cs"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
