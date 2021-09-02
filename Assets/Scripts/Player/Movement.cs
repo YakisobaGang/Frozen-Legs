@@ -9,11 +9,11 @@ namespace YakisobaGang.Player
         [Header("Movement Settings"), Space]
         [SerializeField] private float speed = 100f;
         [SerializeField] private bool disableDiagonalMovement = true;
-        
+
         [Header("Animation Settings"), Space]
         [SerializeField] private float rotationSpeed = 0.4f;
         [SerializeField] private Ease easeCurve;
-        
+
         private readonly LookDirections _currentDirections = new LookDirections();
         private PlayerInputActions _input;
         private Transform _myTransform;
@@ -46,12 +46,12 @@ namespace YakisobaGang.Player
 
         private void Update()
         {
-            if(!disableDiagonalMovement)
+            if (!disableDiagonalMovement)
                 return;
-            
+
             // Enquanto o player tiver uma velocidade ele nao podera mudar de direcao
             // assim ele nao irar se movimentar na diagonal
-            if(_rigidbody.velocity == Vector3.zero)
+            if (_rigidbody.velocity == Vector3.zero)
                 _input.Enable();
             else
                 _input.Disable();
@@ -66,10 +66,10 @@ namespace YakisobaGang.Player
         private void SelectMoveDirection(InputAction.CallbackContext ctx)
         {
             Vector2 direction = ctx.ReadValue<Vector2>();
-            
+
             if (direction == Vector2.up)
                 _currentDirections.LookForward();
-            
+
             if (direction == Vector2.down)
                 _currentDirections.LookBackward();
 
@@ -78,7 +78,7 @@ namespace YakisobaGang.Player
 
             if (direction == Vector2.right)
                 _currentDirections.LookRight();
-            
+
             RotationTweener(Quaternion.Euler(_currentDirections.LookVector));
         }
 
@@ -89,7 +89,7 @@ namespace YakisobaGang.Player
                 .SetEase(easeCurve);
         }
     }
-    
+
     public class LookDirections
     {
         public Vector3 LookVector { get; private set; }
