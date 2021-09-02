@@ -1,15 +1,25 @@
-﻿using UnityEngine;
+﻿using DG.Tweening;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace YakisobaGang.Script.Player
+namespace YakisobaGang.Player
 {
     public class Movement : MonoBehaviour
     {
+        [Header("Movement Settings"), Space]
         [SerializeField] private float speed = 100f;
         [SerializeField] private bool disableDiagonalMovement = true;
+        
+        [Header("Animation Settings"), Space]
+        [SerializeField] private float rotationSpeed = 0.4f;
+        [SerializeField] private Ease easeCurve;
+        
+        private readonly LookDirections _currentDirections = new LookDirections();
         private PlayerInputActions _input;
         private Transform _myTransform;
         private Rigidbody _rigidbody;
+
+        #region Steup
 
         private void Awake()
         {
@@ -32,6 +42,8 @@ namespace YakisobaGang.Script.Player
             _input.Gameplay.Move.performed -= MoveDirection;
         }
 
+        #endregion
+
         private void Update()
         {
             if(!disableDiagonalMovement)
@@ -48,29 +60,65 @@ namespace YakisobaGang.Script.Player
         private void MoveDirection(InputAction.CallbackContext ctx)
         {
             // Adiciona um impulso na direcao que esta olhado
-            _rigidbody.AddForce(_myTransform.forward * speed, ForceMode.Impulse);
+            _rigidbody.AddForce(_currentDirections.MoveDir * speed, ForceMode.Impulse);
         }
 
         private void SelectMoveDirection(InputAction.CallbackContext ctx)
         {
             Vector2 direction = ctx.ReadValue<Vector2>();
             
-            // Olhar para frente
-            if(direction == Vector2.up)
-                _myTransform.rotation = Quaternion.identity;
+            if (direction == Vector2.up)
+                _currentDirections.LookForward();
             
-            // Olhar para tras
             if (direction == Vector2.down)
-                _myTransform.rotation = Quaternion.Euler(0, 180, 0);
+                _currentDirections.LookBackward();
 
-            // Olhar para esquerda
             if (direction == Vector2.left)
-                _myTransform.rotation = Quaternion.Euler(0, -90, 0);
+                _currentDirections.LookLeft();
 
-            // Olhar para direita
             if (direction == Vector2.right)
-                _myTransform.rotation = Quaternion.Euler(0, 90, 0);
+                _currentDirections.LookRight();
+            
+            RotationTweener(Quaternion.Euler(_currentDirections.LookVector));
         }
 
+        private void RotationTweener(Quaternion rotation)
+        {
+            _myTransform
+                .DORotateQuaternion(rotation, rotationSpeed)
+                .SetEase(easeCurve);
+        }
+    }
+    
+    public class LookDirections
+    {
+        public Vector3 LookVector { get; private set; }
+        public Vector3 MoveDir { get; private set; }
+
+        public LookDirections() => LookForward();
+
+        public void LookForward()
+        {
+            LookVector = Vector3.zero;
+            MoveDir = Vector3.forward;
+        }
+
+        public void LookBackward()
+        {
+            LookVector = new Vector3(0, 180, 0);
+            MoveDir = Vector3.back;
+        }
+
+        public void LookLeft()
+        {
+            LookVector = new Vector3(0, -90, 0);
+            MoveDir = Vector3.left;
+        }
+
+        public void LookRight()
+        {
+            LookVector = new Vector3(0, 90, 0);
+            MoveDir = Vector3.right;
+        }
     }
 }

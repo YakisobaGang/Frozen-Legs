@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 
-namespace YakisobaGang.Script.Player
+namespace YakisobaGang.Player
 {
     public class @PlayerInputActions : IInputActionCollection, IDisposable
     {
