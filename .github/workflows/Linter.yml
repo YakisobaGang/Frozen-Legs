@@ -9,7 +9,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      working-directory : ./PI-Quarto-Semestre/    
+      working-directory : ./  
     
     steps:
       - uses: actions/checkout@v2
