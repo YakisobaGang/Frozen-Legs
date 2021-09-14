@@ -9,7 +9,7 @@ namespace YakisobaGang.Interactions
         [SerializeField, Tag] private string whoCanTriggerThis;
         [SerializeField] private UnityEvent whenCollisionHappens;
         [SerializeField] private float force = 10f;
-        
+
         private Rigidbody _targetRb;
         private int _targetID;
 
@@ -29,7 +29,7 @@ namespace YakisobaGang.Interactions
             }
 
             Vector3 dir = (transform.position - other.transform.position).normalized * -1;
-            
+
             whenCollisionHappens?.Invoke();
             _targetRb.AddForce(dir * force, ForceMode.Impulse);
         }
