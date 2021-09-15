@@ -9,15 +9,15 @@ namespace YakisobaGang.Interactions
     public class MovingBlock : MonoBehaviour
     {
         [SerializeField] private List<Transform> wayPoints = new List<Transform>();
-        
+
         [Header("Animation Settings"), Space]
         [SerializeField] private float duration = 5f;
         [SerializeField] private int delay = 4;
         [SerializeField] private Ease ease;
 
-        [Header("Gizmos"), Space] 
+        [Header("Gizmos"), Space]
         [SerializeField] private float size = 0.3f;
-        
+
         private Transform _myTransform;
         private int _index = 0;
 
@@ -46,9 +46,9 @@ namespace YakisobaGang.Interactions
 
         private void Update()
         {
-            if(_index >= wayPoints.Count)
+            if (_index >= wayPoints.Count)
                 _index = 0;
-            
+
             print((int)Vector3.Distance(_myTransform.position, wayPoints[_index].position));
 
             if ((int)Vector3.Distance(_myTransform.position, wayPoints[_index].position) > 0)
