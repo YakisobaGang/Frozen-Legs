@@ -13,22 +13,22 @@ namespace YakisobaGang.Interactions
         private Rigidbody _targetRb;
         private int _targetID;
 
-        private void OnCollisionEnter(Collision other)
+        private void OnCollisionEnter(Collision coll)
         {
-            if (!other.collider.CompareTag(whoCanTriggerThis))
+            if (!coll.collider.CompareTag(whoCanTriggerThis))
                 return;
 
-            if (!other.gameObject.TryGetComponent<Rigidbody>(out var rb))
+            if (!coll.gameObject.TryGetComponent<Rigidbody>(out var rb))
                 return;
 
 
-            if (_targetRb is null || _targetID != other.gameObject.GetInstanceID())
+            if (_targetRb is null || _targetID != coll.gameObject.GetInstanceID())
             {
                 _targetRb = rb;
-                _targetID = other.gameObject.GetInstanceID();
+                _targetID = coll.gameObject.GetInstanceID();
             }
 
-            Vector3 dir = (transform.position - other.transform.position).normalized * -1;
+            Vector3 dir = (transform.position - coll.transform.position).normalized * -1;
 
             whenCollisionHappens?.Invoke();
             _targetRb.AddForce(dir * force, ForceMode.Impulse);
