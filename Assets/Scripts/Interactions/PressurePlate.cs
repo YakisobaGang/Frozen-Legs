@@ -7,6 +7,7 @@ namespace YakisobaGang.Interactions
 {
     public class PressurePlate : MonoBehaviour
     {
+        [InfoBox("O collider deve esta marcado como trigger", EInfoBoxType.Warning)]
         [SerializeField, Tag] private string whoCanTriggerThis;
         [SerializeField] private UnityEvent whenTimeHasPasse;
         [SerializeField] private float timeToTrigger = 1f;

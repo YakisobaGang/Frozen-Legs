@@ -33,7 +33,15 @@
         "**/.idea": true,
         "**/SkyBox's": true,
         "**/Settings": true,
-        "**/Scenes": true
+        "**/Scenes": true,
+        "**/*.inputactions": true,
+        "**/Materials": true,
+        "**/Physics": true,
+        "**/Editor Default Resources": true,
+        "**/Player_Input_Actions.inputactions": true,
+        "**/External": true,
+        "**/UIElementsSchema": true,
+        "**/*.DotSettings": true
     },
     "explorerExclude.backup": null
 }
