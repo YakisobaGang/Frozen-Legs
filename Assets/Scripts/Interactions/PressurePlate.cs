@@ -28,14 +28,14 @@ namespace YakisobaGang.Interactions
                 StartCoroutine(nameof(WaitTime));
                 return;
             }
-                
+
             whenTimeHasPasse?.Invoke();
         }
 
         private IEnumerator WaitTime()
         {
             yield return _waitForSeconds;
-            
+
             whenTimeHasPasse?.Invoke();
         }
     }
