@@ -17,6 +17,6 @@ namespace YakisobaGang
             transform.LookAt(
                 transform.position + rotation * Vector3.forward,
                 rotation * Vector3.up);
-        } 
+        }
     }
 }
