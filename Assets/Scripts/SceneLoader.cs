@@ -14,7 +14,7 @@ namespace YakisobaGang
 
         public void LoadSceneAfterTime(float time)
         {
-            Invoke(nameof(LoadScene), time);   
+            Invoke(nameof(LoadScene), time);
         }
     }
 }
