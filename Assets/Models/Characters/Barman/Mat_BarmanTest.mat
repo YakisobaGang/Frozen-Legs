@@ -33,11 +33,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Inside_Text:
-        m_Texture: {fileID: 2800000, guid: 40199a14b921ca44ca608ba37462fa8c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8b9df06e42d563f43bc8329a25a1fe56, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Main:
-        m_Texture: {fileID: 2800000, guid: 2f452b3b79f2c2849ba9ffc450078924, type: 3}
+        m_Texture: {fileID: 2800000, guid: b88ca765f11d42b4d9a00c4280768f03, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Mask:
@@ -102,8 +102,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Camera_direction_Influence: -0.62
-    - Fresnel_Power: 98.9
+    - Camera_direction_Influence: 6.4
+    - Fresnel_Power: 11.84
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -133,6 +133,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Fresnel_Color: {r: 0.31853035, g: 1.9111822, b: 2.433572, a: 0}
+    - Main_Texture_Offest: {r: 0, g: 0, b: 0, a: 0}
+    - Main_Texture_Tiling: {r: 1, g: 1, b: 0, a: 0}
     - Vector3: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.98833734, g: 0.98833734, b: 0.98833734, a: 1}
