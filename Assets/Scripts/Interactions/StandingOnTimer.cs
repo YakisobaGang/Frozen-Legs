@@ -19,19 +19,19 @@ namespace YakisobaGang.Interactions
             startTime = time;
         }
 
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         private void OnDrawGizmos()
         {
             var position = transform.position;
             Handles.Label(new Vector3(position.x, 1, position.z), $"Timer: {time:N2}");
         }
-        #endif
+#endif
 
         private void OnTriggerStay(Collider other)
         {
-            if(!other.CompareTag("Player"))
+            if (!other.CompareTag("Player"))
                 return;
-            
+
             time -= Time.deltaTime;
             onTimeTick?.Invoke(time / startTime);
 
