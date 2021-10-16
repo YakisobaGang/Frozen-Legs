@@ -11,5 +11,10 @@ namespace YakisobaGang
         {
             SceneManager.LoadScene(sceneIndex);
         }
+
+        public void LoadSceneAfterTime(float time)
+        {
+            Invoke(nameof(LoadScene), time);   
+        }
     }
 }
