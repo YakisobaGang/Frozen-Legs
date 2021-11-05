@@ -17,12 +17,12 @@ MonoBehaviour:
     passTag: MovementGizmoBehind
     Event: 300
     filterSettings:
-      RenderQueueType: 1
+      RenderQueueType: 0
       LayerMask:
         serializedVersion: 2
         m_Bits: 128
       PassNames: []
-    overrideMaterial: {fileID: 2100000, guid: b64ead43d5fbc8541acf4ff3a6c70aa2, type: 2}
+    overrideMaterial: {fileID: 2100000, guid: fa500fe9f8dda7d40900226203d13cac, type: 2}
     overrideMaterialPassIndex: 0
     overrideDepthState: 1
     depthCompareFunction: 5

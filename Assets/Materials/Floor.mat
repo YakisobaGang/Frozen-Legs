@@ -44,6 +44,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: a297e22a37da7874cbd6816849e46e15, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - Texture2D_300EB541:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -72,6 +76,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: dafe2bde19a76e94790dbc4df9609e07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -85,6 +93,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -103,7 +115,22 @@ Material:
     m_Ints: []
     m_Floats:
     - Camera_direction_Influence: -2.36
+    - Foam_Amount: 4.04
+    - Foam_Cutoff: 3.5
+    - Foam_Evolution_Speed: 1.47
+    - Foam_Scale: 3.63
     - Fresnel_Power: 10.19
+    - Global_Fading: 30
+    - Light_Probe_Contribution: 2.5
+    - Refaction_Scale: 1
+    - Refraction_Evolution_Speed: 3
+    - Refraction_Height: 0.459
+    - Vector1_77A997E: 0.5
+    - Vector1_8606F96E: 0
+    - Water_Depth: 7.4
+    - Wave_Height: 1.76
+    - Wave_Scale: 10
+    - Wave_Speed: 2
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -118,13 +145,14 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _MainTextureScale: 0.1
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.349
+    - _Smoothness: 0.536
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -132,11 +160,18 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Foam_Color: {r: 1, g: 1, b: 1, a: 0.5450981}
     - Fresnel_Color: {r: 0, g: 2.5624094, b: 16.33536, a: 0}
     - Main_Texture_Offest: {r: 0, g: 0, b: 0, a: 0}
     - Main_Texture_Tiling: {r: 10, g: 10, b: 0, a: 0}
+    - Shallow_Water_Color: {r: 0.44313726, g: 0.8750768, b: 0.8980392, a: 0.3176471}
+    - Trough_Color: {r: 0, g: 0.03410326, b: 0.7215686, a: 0.4627451}
     - _BaseColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Offset: {r: -0.66, g: -0.67, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecularColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 15, g: 15, b: 0, a: 0}
   m_BuildTextureStacks: []
