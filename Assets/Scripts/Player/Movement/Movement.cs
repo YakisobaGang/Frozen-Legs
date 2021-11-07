@@ -2,6 +2,7 @@
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using YakisobaGang.Script.Player;
 
 namespace YakisobaGang.Player.Movement
 {
@@ -20,6 +21,7 @@ namespace YakisobaGang.Player.Movement
         private PlayerInputActions _input;
         private Transform _myTransform;
         private Rigidbody _rigidbody;
+        private bool canMove = true;
 
         #region Steup
 
@@ -53,20 +55,23 @@ namespace YakisobaGang.Player.Movement
 
             // Enquanto o player tiver uma velocidade ele nao podera mudar de direcao
             // assim ele nao irar se movimentar na diagonal
-            if (_rigidbody.velocity == Vector3.zero)
-                _input.Enable();
-            else
-                _input.Disable();
+            canMove = _rigidbody.velocity == Vector3.zero;
         }
 
         private void MoveDirection(InputAction.CallbackContext ctx)
         {
+            if(!canMove)
+                return;
+            
             // Adiciona um impulso na direcao que esta olhado
             _rigidbody.AddForce(_currentDirections.MoveDir * speed, ForceMode.Impulse);
         }
 
         private void SelectMoveDirection(InputAction.CallbackContext ctx)
         {
+            if(!canMove)
+                return;
+            
             Vector2 direction = ctx.ReadValue<Vector2>();
 
             if (direction == Vector2.up)

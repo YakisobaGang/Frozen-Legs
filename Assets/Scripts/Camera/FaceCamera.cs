@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace YakisobaGang
+namespace YakisobaGang.Camera
 {
     public class FaceCamera : MonoBehaviour
     {
@@ -8,7 +8,7 @@ namespace YakisobaGang
 
         private void Awake()
         {
-            _mainCameraTransform = Camera.main.transform;
+            _mainCameraTransform = UnityEngine.Camera.main.transform;
         }
 
         private void LateUpdate()

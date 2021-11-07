@@ -11,7 +11,8 @@
                     "id": "89af5588-4911-4aab-8cd7-bfeab18d69b7",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Move",
@@ -19,7 +20,17 @@
                     "id": "e6f53c84-b2df-4372-b696-46c41619b160",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RoteteCamera",
+                    "type": "Button",
+                    "id": "9a336880-9c3b-4d0f-ba14-0f64e2bd5b59",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -209,6 +220,39 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "112d73de-b9e9-45c8-b61b-e6bb5920e1c7",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RoteteCamera",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "4c6919c0-495f-4986-93ae-f97fd4916db0",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "RoteteCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "69407582-c73a-4b26-97ba-703b557dce77",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RoteteCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }

@@ -56,6 +56,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _CracksMask:
+        m_Texture: {fileID: 2800000, guid: 5e2e4ad94c18cd541b56c60f1f793ea8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cracks_Mask:
+        m_Texture: {fileID: 2800000, guid: 5e2e4ad94c18cd541b56c60f1f793ea8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -77,11 +85,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: dafe2bde19a76e94790dbc4df9609e07, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8b9df06e42d563f43bc8329a25a1fe56, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 9251f3c167ed3eb4bbb4285003dad221, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 2800000, guid: 9251f3c167ed3eb4bbb4285003dad221, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -90,6 +106,22 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_04dfe5261a024eedacc733345f9ff42a_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 5e2e4ad94c18cd541b56c60f1f793ea8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_1280d621a69a401b88bde4f7c9b257c4_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 9251f3c167ed3eb4bbb4285003dad221, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_700bba2c82424e768b7e671ee653c9d0_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 5e2e4ad94c18cd541b56c60f1f793ea8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c601c997798f4e699b3e1c8d2e409f07_Texture_1:
+        m_Texture: {fileID: 2800000, guid: dafe2bde19a76e94790dbc4df9609e07, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -136,24 +168,42 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _CracksOpacity: 0.779
+    - _CracksSaturation: 2
+    - _Cracks_Opacity: 0.696
+    - _Cracks_Saturation: 1.371
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
+    - _FresnelPower: 2.37
+    - _Fresnel_Power: 6.11
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _LOD: 0
+    - _Lerp: 0.5
+    - _MainTextureSaturation: 2
     - _MainTextureScale: 0.1
-    - _Metallic: 0
+    - _Main_Texture_Saturation: 1.327
+    - _Metallic: 0.09
+    - _NormalMapStrength: 0.916
     - _OcclusionStrength: 1
+    - _Offest: 0
     - _Parallax: 0.005
+    - _ParallexOffset: -0.02
+    - _Parallex_Offset: -0.02
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.536
+    - _Samples: 8
+    - _Saturation: 1
+    - _Smoothess: 0.5
+    - _Smoothness: 0.45
     - _SmoothnessTextureChannel: 0
+    - _Specular: 0.5
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
@@ -167,11 +217,13 @@ Material:
     - Shallow_Water_Color: {r: 0.44313726, g: 0.8750768, b: 0.8980392, a: 0.3176471}
     - Trough_Color: {r: 0, g: 0.03410326, b: 0.7215686, a: 0.4627451}
     - _BaseColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.33241364, g: 0.8490566, b: 0.73307216, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 0.29019612, g: 0.5856991, b: 0.8392157, a: 1}
+    - _Fresnel_Color: {r: 0.2783019, g: 0.69344246, b: 1, a: 1}
     - _MainColor: {r: 1, g: 1, b: 1, a: 0}
     - _Offset: {r: -0.66, g: -0.67, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0, g: 0, b: 0, a: 0}
-    - _Tiling: {r: 15, g: 15, b: 0, a: 0}
+    - _Tiling: {r: 3, g: 3, b: 0, a: 0}
   m_BuildTextureStacks: []
