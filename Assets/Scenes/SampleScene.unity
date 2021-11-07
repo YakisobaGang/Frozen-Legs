@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.65080994, g: 0.666729, b: 0.7075472, a: 1}
   m_FogMode: 1
   m_FogDensity: 0.02
@@ -3044,8 +3044,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367879958}
-  m_LocalRotation: {x: 0.26661327, y: 0.0043257596, z: -0.0011966311, w: 0.9637932}
-  m_LocalPosition: {x: -0.35, y: 23.36, z: -38.99}
+  m_LocalRotation: {x: 0.274023, y: 0.0043566315, z: -0.0012413453, w: 0.96171254}
+  m_LocalPosition: {x: -0.35, y: 23.96, z: -38.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3074,7 +3074,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 48759356}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 34.9
+    FieldOfView: 41.1
     OrthographicSize: 10
     NearClipPlane: 0.001
     FarClipPlane: 1000
@@ -3519,7 +3519,7 @@ Camera:
     height: 1
   near clip plane: 0.001
   far clip plane: 1000
-  field of view: 34.9
+  field of view: 41.1
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -3544,8 +3544,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: 0.26661327, y: 0.0043257596, z: -0.0011966311, w: 0.9637932}
-  m_LocalPosition: {x: -0.34999987, y: 23.36, z: -38.989998}
+  m_LocalRotation: {x: 0.274023, y: 0.0043566315, z: -0.0012413453, w: 0.96171254}
+  m_LocalPosition: {x: -0.34999987, y: 23.96, z: -38.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3570,7 +3570,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
