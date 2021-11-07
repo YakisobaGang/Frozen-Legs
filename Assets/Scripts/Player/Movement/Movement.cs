@@ -60,18 +60,18 @@ namespace YakisobaGang.Player.Movement
 
         private void MoveDirection(InputAction.CallbackContext ctx)
         {
-            if(!canMove)
+            if (!canMove)
                 return;
-            
+
             // Adiciona um impulso na direcao que esta olhado
             _rigidbody.AddForce(_currentDirections.MoveDir * speed, ForceMode.Impulse);
         }
 
         private void SelectMoveDirection(InputAction.CallbackContext ctx)
         {
-            if(!canMove)
+            if (!canMove)
                 return;
-            
+
             Vector2 direction = ctx.ReadValue<Vector2>();
 
             if (direction == Vector2.up)
