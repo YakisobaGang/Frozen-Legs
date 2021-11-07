@@ -11,7 +11,7 @@ namespace YakisobaGang.Camera
         [SerializeField] private AnimationCurve accelerationCurve;
         [SerializeField] private float speed = 3f;
         [SerializeField] private Transform center;
-        
+
         private PlayerInputActions _input;
         private InputAction _rotateAction;
         private Transform _myTransform;
@@ -39,9 +39,9 @@ namespace YakisobaGang.Camera
             {
                 _myTransform.RotateAround(center.position, Vector3.down, accelerationCurve.Evaluate(speed * Time.deltaTime));
             }
-            else if(_rotateAction.ReadValue<float>() > 0)
+            else if (_rotateAction.ReadValue<float>() > 0)
             {
-                _myTransform.RotateAround(center.position, Vector3.up, accelerationCurve.Evaluate(speed *Time.deltaTime));
+                _myTransform.RotateAround(center.position, Vector3.up, accelerationCurve.Evaluate(speed * Time.deltaTime));
             }
         }
     }
