@@ -37,11 +37,11 @@ namespace YakisobaGang.Camera
         {
             if (_rotateAction.ReadValue<float>() < 0)
             {
-                _myTransform.RotateAround(center.position, Vector3.down, accelerationCurve.Evaluate(speed * Time.deltaTime));
+                _myTransform.RotateAround(center.position, Vector3.down, accelerationCurve.Evaluate(Time.smoothDeltaTime) * speed);
             }
             else if (_rotateAction.ReadValue<float>() > 0)
             {
-                _myTransform.RotateAround(center.position, Vector3.up, accelerationCurve.Evaluate(speed * Time.deltaTime));
+                _myTransform.RotateAround(center.position, Vector3.up, accelerationCurve.Evaluate(Time.smoothDeltaTime) * speed);
             }
         }
     }
