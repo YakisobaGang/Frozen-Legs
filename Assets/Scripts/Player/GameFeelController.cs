@@ -27,16 +27,16 @@ namespace YakisobaGang.Player
         [ContextMenu("Camera Shake")]
         public static void ApplyCameraShake()
         {
-           var noise = instance.cameraShakeSettings.camera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+            var noise = instance.cameraShakeSettings.camera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
 
-           noise.m_NoiseProfile = instance.cameraShakeSettings.noiseProfile;
-           noise.m_AmplitudeGain = instance.cameraShakeSettings.amplitude;
+            noise.m_NoiseProfile = instance.cameraShakeSettings.noiseProfile;
+            noise.m_AmplitudeGain = instance.cameraShakeSettings.amplitude;
 
-           float Getter() => noise.m_FrequencyGain;
-           void Setter(float x) => noise.m_FrequencyGain = x;
+            float Getter() => noise.m_FrequencyGain;
+            void Setter(float x) => noise.m_FrequencyGain = x;
 
-           DOTween.To(Getter, Setter, instance.cameraShakeSettings.frequency, instance.cameraShakeSettings.shakeDuration)
-               .OnComplete(() => noise.m_FrequencyGain = 0);
+            DOTween.To(Getter, Setter, instance.cameraShakeSettings.frequency, instance.cameraShakeSettings.shakeDuration)
+                .OnComplete(() => noise.m_FrequencyGain = 0);
         }
     }
 }
