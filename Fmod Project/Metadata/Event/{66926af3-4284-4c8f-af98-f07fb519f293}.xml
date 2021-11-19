@@ -5,7 +5,7 @@
 			<value>MultiTackEvent</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{92c51534-d131-48a4-a118-13a74bf5016b}</destination>
@@ -151,10 +151,13 @@
 	<object class="MixerBusEffectChain" id="{739c5e52-7a58-4e35-bb94-6c790a7957cf}">
 		<relationship name="effects">
 			<destination>{715aeb0c-fb80-4ac6-a0e7-6ec21e675d3c}</destination>
-			<destination>{813a34c4-81b8-439f-98c2-93e51aa98bae}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{42214b59-d99e-414d-a939-45f48e26e97f}" />
+	<object class="MixerBusPanner" id="{42214b59-d99e-414d-a939-45f48e26e97f}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{d4c08ab4-59b7-4abe-bba0-ea764f4a8561}" />
 	<object class="MixerBusEffectChain" id="{f68b418a-c586-4c6b-9a15-64122b8ac308}">
 		<relationship name="effects">
@@ -169,7 +172,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{f5eadbf9-80aa-4413-81a9-3e142f349989}" />
 	<object class="MixerBusFader" id="{715aeb0c-fb80-4ac6-a0e7-6ec21e675d3c}" />
-	<object class="SpatialiserEffect" id="{813a34c4-81b8-439f-98c2-93e51aa98bae}" />
 	<object class="MixerBusFader" id="{ffd0d452-c3fc-446c-95cd-37cabf4325e2}" />
 	<object class="MixerBusFader" id="{b833aade-c844-4d73-9fef-10699d681f69}" />
 </objects>

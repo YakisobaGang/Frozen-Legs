@@ -12,6 +12,7 @@ namespace YakisobaGang.Player.Movement
         [Header("Movement Settings"), Space]
         [SerializeField] private float speed = 100f;
         [SerializeField] private bool disableDiagonalMovement = true;
+        [SerializeField, FMODUnity.EventRef] private string collsionSFX;
 
         [Header("Animation Settings"), Space]
         [SerializeField] private float rotationSpeed = 0.4f;
@@ -94,6 +95,15 @@ namespace YakisobaGang.Player.Movement
             _myTransform
                 .DORotateQuaternion(rotation, rotationSpeed)
                 .SetEase(easeCurve);
+        }
+
+        private void OnCollisionEnter(Collision other)
+        {
+            if (other.collider.CompareTag("Obstacles"))
+            {
+                FMODUnity.RuntimeManager.PlayOneShot(collsionSFX);
+                GameFeelController.ApplyCameraShake();
+            }
         }
     }
 }
