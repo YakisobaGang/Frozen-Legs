@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7814059495985492488}
   - component: {fileID: 7814059495985492489}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: MovementSmokeVFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,8 +285,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0
-      minScalar: 0.27
+      scalar: 0.03
+      minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -338,8 +338,8 @@ ParticleSystem:
     startSizeY:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.39
-      minScalar: 1
+      scalar: 0.01
+      minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -391,8 +391,8 @@ ParticleSystem:
     startSizeZ:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.09
-      minScalar: 1
+      scalar: 0.01
+      minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -973,7 +973,7 @@ ParticleSystem:
     m_BurstCount: 0
     m_Bursts: []
   SizeModule:
-    enabled: 1
+    enabled: 0
     curve:
       serializedVersion: 2
       minMaxState: 1

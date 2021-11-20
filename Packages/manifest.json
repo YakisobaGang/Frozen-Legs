@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.febucci.custom-hierarchy": "https://github.com/febucci/unitypackage-custom-hierarchy.git",
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.cinemachine": "2.8.2",
     "com.unity.collab-proxy": "1.13.5",
     "com.unity.feature.characters-animation": "1.0.0",
