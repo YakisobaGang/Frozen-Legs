@@ -3,6 +3,7 @@ using DG.Tweening;
 using FMOD.Studio;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Playables;
 using YakisobaGang.Script.Player;
 
 namespace YakisobaGang.Player.Movement
@@ -30,6 +31,8 @@ namespace YakisobaGang.Player.Movement
         private Rigidbody _rigidbody;
         private bool canMove = true;
         private EventInstance iceSlideInstance;
+        private PlayableDirector movementSpellDirector;
+        private RagdollController ragdollController;
         #region Steup
 
         private void Awake()
@@ -37,20 +40,21 @@ namespace YakisobaGang.Player.Movement
             _input = new PlayerInputActions();
             _myTransform = GetComponent<Transform>();
             _rigidbody = GetComponent<Rigidbody>();
+            ragdollController = GetComponent<RagdollController>();
         }
 
         private void OnEnable()
         {
             _input.Enable();
             _input.Gameplay.SelectMoveDirection.performed += SelectMoveDirection;
-            _input.Gameplay.Move.performed += MoveDirection;
+            _input.Gameplay.Move.performed += HandleInputMoveDirection;
         }
 
         private void OnDisable()
         {
             _input.Disable();
             _input.Gameplay.SelectMoveDirection.performed -= SelectMoveDirection;
-            _input.Gameplay.Move.performed -= MoveDirection;
+            _input.Gameplay.Move.performed -= HandleInputMoveDirection;
         }
 
         #endregion
@@ -63,20 +67,23 @@ namespace YakisobaGang.Player.Movement
             // Enquanto o player tiver uma velocidade ele nao podera mudar de direcao
             // assim ele nao irar se movimentar na diagonal
             canMove = _rigidbody.velocity == Vector3.zero;
+
+            if (movementSpellDirector != null && movementSpellDirector.state == PlayState.Paused)
+            {
+                ragdollController.EnableRagdoll();
+            }
         }
 
-        private void MoveDirection(InputAction.CallbackContext ctx)
+        private void HandleInputMoveDirection(InputAction.CallbackContext ctx)
         {
-            if (!canMove)
-                return;
-
-            // Adiciona um impulso na direcao que esta olhado
-            _rigidbody.AddForce(_currentDirections.MoveDir * speed, ForceMode.Impulse);
             
-            movementSmoke.SetActive(true);
-            iceSlideInstance = FMODUnity.RuntimeManager.CreateInstance(iceSlideSFX);
-            iceSlideInstance.setParameterByName("StillInMovement", 1);
-            iceSlideInstance.start();
+            ragdollController.DisableRagdoll();
+            
+            movementSpell.SetActive(true);
+            movementSpellDirector ??= movementSpell.GetComponent<PlayableDirector>();
+            
+            movementSpellDirector.Play();
+            MoveDir();
         }
 
         private void SelectMoveDirection(InputAction.CallbackContext ctx)
@@ -123,6 +130,22 @@ namespace YakisobaGang.Player.Movement
                     iceSlideInstance.release();
                 }
             }
+        }
+
+        public void MoveDir()
+        {
+            print("OK");
+
+            if(!canMove)
+                return;
+            
+            // Adiciona um impulso na direcao que esta olhado
+            _rigidbody.AddForce(_currentDirections.MoveDir * speed, ForceMode.Impulse);
+            
+            movementSmoke.SetActive(true);
+            iceSlideInstance = FMODUnity.RuntimeManager.CreateInstance(iceSlideSFX);
+            iceSlideInstance.setParameterByName("StillInMovement", 1);
+            iceSlideInstance.start();
         }
     }
 }

@@ -2510,7 +2510,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7782258, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3332,6 +3332,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 290354101, guid: 72f328bbfc36a6944b584e998e8dade0, type: 3}
+      propertyPath: m_Events.m_Events.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5135580000842270656, guid: 72f328bbfc36a6944b584e998e8dade0, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3384,9 +3388,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 5135580000842270663, guid: 72f328bbfc36a6944b584e998e8dade0, type: 3}
-      propertyPath: iceSlideSFX
-      value: event:/Slide Ice
+    - target: {fileID: 6042877538214823838, guid: 72f328bbfc36a6944b584e998e8dade0, type: 3}
+      propertyPath: m_InitialState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6042877538214823838, guid: 72f328bbfc36a6944b584e998e8dade0, type: 3}
+      propertyPath: m_DirectorUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6042877538214823838, guid: 72f328bbfc36a6944b584e998e8dade0, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72f328bbfc36a6944b584e998e8dade0, type: 3}
