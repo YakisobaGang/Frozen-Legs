@@ -20,10 +20,10 @@ namespace YakisobaGang.Player.Movement
         [SerializeField] private float rotationSpeed = 0.4f;
         [SerializeField] private Ease easeCurve;
 
-        [Header("Movement VFX"), Space] 
+        [Header("Movement VFX"), Space]
         [SerializeField] private GameObject movementSmoke;
         [SerializeField] private GameObject movementSpell;
-        
+
         private readonly LookDirections _currentDirections = new LookDirections();
         private PlayerInputActions _input;
         private Transform _myTransform;
@@ -72,7 +72,7 @@ namespace YakisobaGang.Player.Movement
 
             // Adiciona um impulso na direcao que esta olhado
             _rigidbody.AddForce(_currentDirections.MoveDir * speed, ForceMode.Impulse);
-            
+
             movementSmoke.SetActive(true);
             iceSlideInstance = FMODUnity.RuntimeManager.CreateInstance(iceSlideSFX);
             iceSlideInstance.setParameterByName("StillInMovement", 1);
@@ -115,7 +115,7 @@ namespace YakisobaGang.Player.Movement
                 FMODUnity.RuntimeManager.PlayOneShot(collsionSFX);
                 GameFeelController.ApplyCameraShake();
                 movementSmoke.SetActive(false);
-                
+
                 if (_rigidbody.velocity == Vector3.zero)
                 {
                     iceSlideInstance.stop(STOP_MODE.ALLOWFADEOUT);
