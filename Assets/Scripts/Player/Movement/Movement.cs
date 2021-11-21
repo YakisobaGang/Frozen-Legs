@@ -77,12 +77,12 @@ namespace YakisobaGang.Player.Movement
         private void HandleInputMoveDirection(InputAction.CallbackContext ctx)
         {
 <<<<<<< HEAD
-            
+
             ragdollController.DisableRagdoll();
-            
+
             movementSpell.SetActive(true);
             movementSpellDirector ??= movementSpell.GetComponent<PlayableDirector>();
-            
+
             movementSpellDirector.Play();
             MoveDir();
 =======
@@ -149,12 +149,12 @@ namespace YakisobaGang.Player.Movement
         {
             print("OK");
 
-            if(!canMove)
+            if (!canMove)
                 return;
-            
+
             // Adiciona um impulso na direcao que esta olhado
             _rigidbody.AddForce(_currentDirections.MoveDir * speed, ForceMode.Impulse);
-            
+
             movementSmoke.SetActive(true);
             iceSlideInstance = FMODUnity.RuntimeManager.CreateInstance(iceSlideSFX);
             iceSlideInstance.setParameterByName("StillInMovement", 1);
