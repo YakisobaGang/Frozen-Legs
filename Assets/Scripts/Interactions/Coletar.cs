@@ -6,6 +6,6 @@ namespace YakisobaGang
 {
     public class Coletar : MonoBehaviour
     {
-        
+
     }
 }
