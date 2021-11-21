@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{5dccc834-2271-4cfe-9aa3-888a55afc96b}">
+		<property name="name">
+			<value>StillInMovement</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1c097446-d6fa-4080-b334-0af7b4b7db67}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2134e348-01d2-4d03-823a-71f23099f8f5}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2134e348-01d2-4d03-823a-71f23099f8f5}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

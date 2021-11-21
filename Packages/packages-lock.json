@@ -1,11 +1,34 @@
 {
   "dependencies": {
+    "com.autodesk.fbx": {
+      "version": "4.1.1",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.febucci.custom-hierarchy": {
       "version": "https://github.com/febucci/unitypackage-custom-hierarchy.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
       "hash": "b7da93eeda88ebeb82064b6d3fd9d22a0ed459eb"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.animation.rigging": {
+      "version": "1.1.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.test-framework": "1.1.24"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
       "version": "1.6.0",
@@ -38,6 +61,27 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.feature.characters-animation": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.animation.rigging": "1.1.1",
+        "com.unity.timeline": "1.6.2",
+        "com.unity.cinemachine": "2.8.0",
+        "com.unity.formats.fbx": "4.1.1"
+      }
+    },
+    "com.unity.formats.fbx": {
+      "version": "4.1.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.5.2",
+        "com.autodesk.fbx": "4.1.1"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
@@ -96,6 +140,15 @@
         "com.unity.settings-manager": "1.0.3",
         "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.progrids": {
+      "version": "3.0.3-preview.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.2"
       },
       "url": "https://packages.unity.com"
     },

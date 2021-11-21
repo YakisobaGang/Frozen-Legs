@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{68faaa90-6a3b-4726-ad87-8b3402e49a4c}">
+		<property name="assetPath">
+			<value>CollisionSFX.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>12.482176870748299</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{743ec1b9-804a-4c41-b65c-810447abbfcd}</destination>
+		</relationship>
+	</object>
+</objects>
