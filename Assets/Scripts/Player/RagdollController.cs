@@ -22,18 +22,22 @@ namespace YakisobaGang.Player
         [ContextMenu("Disable Ragdoll")]
         public void DisableRagdoll()
         {
+            ragDollIsDisable = true;
+            
             foreach (var joint in joints)
             {
-                joint.GetComponent<Rigidbody>().isKinematic = true;
+                joint.GetComponent<Collider>().isTrigger = true;
             }
         }
 
-        [ContextMenu("EnableRagdoll")]
+        [ContextMenu("Enable Ragdoll")]
         public void EnableRagdoll()
         {
+            ragDollIsDisable = false;
+            
             foreach (var joint in joints)
             {
-                joint.GetComponent<Rigidbody>().isKinematic = false;
+                joint.GetComponent<Collider>().isTrigger= false;
             }
         }
     }

@@ -19,7 +19,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 40.012, y: 19.897, z: 31.796}
+        value: {x: 30.375, y: 13.148, z: 27.89}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -27,8 +27,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.16666667
-        value: {x: 65.402, y: 103.698, z: 104.182}
+        time: 0.33333334
+        value: {x: 44.741, y: 24.085, z: 34.623}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -36,17 +36,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.28333333
-        value: {x: 29.195, y: 12.433, z: 27.534}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.4
-        value: {x: 40.012, y: 19.897, z: 31.796}
+        time: 0.5833333
+        value: {x: 30.375, y: 13.148, z: 27.89}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -56,7 +47,41 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 36.48, y: -20.614, z: -34.913}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: 53.249, y: -42.034, z: -50.274}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 36.48, y: -20.614, z: -34.913}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -70,8 +95,17 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.16666667
-        value: {x: 17.326, y: 1.176, z: 4.195}
+        time: 0.33333334
+        value: {x: 24.652, y: 1.766, z: 4.407}
+        inSlope: {x: 135.11281, y: 15.556801, z: 3.830402}
+        outSlope: {x: 135.11281, y: 15.556801, z: 3.830402}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.41666666
+        value: {x: 58.903, y: 6.59, z: 7.771}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -79,16 +113,7 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.28333333
-        value: {x: 8.628, y: 0.534, z: 4.05}
-        inSlope: {x: -63.085716, y: -4.5771427, z: -0.72000504}
-        outSlope: {x: -63.085716, y: -4.5771427, z: -0.72000504}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.4
+        time: 0.5833333
         value: {x: 2.606, y: 0.108, z: 4.008}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -99,50 +124,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 44.854, y: -29.123, z: -40.478}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.16666667
-        value: {x: 62.335, y: -79.474, z: -82.367}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.28333333
-        value: {x: 35.118, y: -19.458, z: -34.236}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.4
-        value: {x: 44.854, y: -29.123, z: -40.478}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -156,8 +138,17 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.16666667
-        value: {x: 11.497, y: -0.293, z: -1.896}
+        time: 0.33333334
+        value: {x: 36.144, y: -1.273, z: -2.302}
+        inSlope: {x: 121.91521, y: -5.8223996, z: -3.036}
+        outSlope: {x: 121.91521, y: -5.8223996, z: -3.036}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.41666666
+        value: {x: 53.506, y: -2.429, z: -3.126}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -165,16 +156,7 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.28333333
-        value: {x: 7.853, y: -0.172, z: -1.877}
-        inSlope: {x: -37.66714, y: 1.2428572, z: 0.15000036}
-        outSlope: {x: -37.66714, y: 1.2428572, z: 0.15000036}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.4
+        time: 0.5833333
         value: {x: 2.708, y: -0.003, z: -1.861}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -185,7 +167,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -199,8 +181,26 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.28333333
-        value: {x: 12.252, y: -0.534, z: -2.308}
+        time: 0.41666666
+        value: {x: 8.835, y: -0.395, z: -2.282}
+        inSlope: {x: 0, y: 0, z: -0.11225824}
+        outSlope: {x: 0, y: 0, z: -0.11225824}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.51666665
+        value: {x: -11.91, y: 0.434, z: -2.318}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: -3.783, y: 0.105, z: -2.26}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -210,7 +210,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -224,8 +224,26 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.28333333
-        value: {x: 20.631, y: 0.895, z: 2.41}
+        time: 0.41666666
+        value: {x: -8.103, y: -0.277, z: 2.278}
+        inSlope: {x: -27.092905, y: -1.1129034, z: 0.13935582}
+        outSlope: {x: -27.092905, y: -1.1129034, z: 0.13935582}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.51666665
+        value: {x: -17.781, y: -0.68, z: 2.37}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: -3.783, y: -0.105, z: 2.26}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -235,14 +253,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
   m_PositionCurves:
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0.00001, y: 0.00322, z: -0.00112}
+        value: {x: -0.00003, y: 0.00331, z: -0.00133}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -250,17 +268,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.16666667
-        value: {x: -0.0006004287, y: 0.004563441, z: -0.0009576996}
-        inSlope: {x: 0, y: 0, z: 0.0015176472}
-        outSlope: {x: 0, y: 0, z: 0.0015176472}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.28333333
-        value: {x: 0.00016, y: 0.00285, z: -0.00069}
+        time: 0.33333334
+        value: {x: 0.0002, y: 0.00275, z: -0.00078}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -268,8 +277,17 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.4
-        value: {x: 0.00001, y: 0.00322, z: -0.00112}
+        time: 0.51666665
+        value: {x: -0.0001, y: 0.0035, z: -0.00166}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: -0.00003, y: 0.00331, z: -0.00133}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -279,7 +297,50 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.00023, y: 0.00399, z: -0.00224}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: 0.00024, y: 0.004, z: -0.00229}
+        inSlope: {x: 0.00007741927, y: 0.00007741995, z: -0.00038709614}
+        outSlope: {x: 0.00007741927, y: 0.00007741995, z: -0.00038709614}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.51666665
+        value: {x: 0.00033, y: 0.00419, z: -0.00247}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 0.00023, y: 0.00399, z: -0.00224}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -293,8 +354,17 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.16666667
-        value: {x: -0.0000060862803, y: 0.0047424827, z: -0.0005511827}
+        time: 0.33333334
+        value: {x: 0.00001, y: 0.00445, z: 0.00005}
+        inSlope: {x: 0.00009600427, y: -0.001877971, z: 0.0004800002}
+        outSlope: {x: 0.00009600427, y: -0.001877971, z: 0.0004800002}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.41666666
+        value: {x: 0.00006, y: 0.00364, z: 0.00038}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -302,16 +372,16 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.28333333
-        value: {x: -0.0000013161916, y: 0.004668078, z: -0.00022840846}
-        inSlope: {x: 0.000026082153, y: -0.00038496085, z: 0.0023622117}
-        outSlope: {x: 0.000026082153, y: -0.00038496085, z: 0.0023622117}
+        time: 0.51666665
+        value: {x: -0, y: 0.00454, z: -0.00046}
+        inSlope: {x: -0.000000010643085, y: 0.0025349222, z: 0}
+        outSlope: {x: -0.000000010643085, y: 0.0025349222, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.4
+        time: 0.5833333
         value: {x: -4.447253e-10, y: 0.004645622, z: -1.783127e-11}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -322,50 +392,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0.00028, y: 0.0041, z: -0.00231}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.16666667
-        value: {x: 0.00035, y: 0.00419, z: -0.00155}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.28333333
-        value: {x: -0.000029494167, y: 0.0034599241, z: -0.0016421169}
-        inSlope: {x: 0, y: 0, z: -0.0015791465}
-        outSlope: {x: 0, y: 0, z: -0.0015791465}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.4
-        value: {x: 0.00028, y: 0.0041, z: -0.00231}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -379,8 +406,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.16666667
-        value: {x: 0, y: 0.00489, z: 0.00027}
+        time: 0.33333334
+        value: {x: -0, y: 0.00491, z: -0.00053}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -388,8 +415,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.28333333
-        value: {x: 0, y: 0.00499, z: -0.0002}
+        time: 0.41666666
+        value: {x: 0.00001, y: 0.00539, z: 0.0005}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -397,7 +424,16 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.4
+        time: 0.51666665
+        value: {x: 0.00001, y: 0.00533, z: -0.00038}
+        inSlope: {x: 0, y: -0.0014399999, z: 0}
+        outSlope: {x: 0, y: -0.0014399999, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
         value: {x: -1.6648322e-10, y: 0.004968622, z: -7.4296954e-13}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -408,7 +444,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -422,8 +458,26 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.28333333
-        value: {x: 0.0000000035506673, y: 0.0043581235, z: -0.0000000073341653}
+        time: 0.41666666
+        value: {x: 0.000029994022, y: 0.0049900003, z: 0.0005800007}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.51666665
+        value: {x: 0.000010556687, y: 0.0045805294, z: 0.00020416616}
+        inSlope: {x: -0.00017996476, y: -0.003791353, z: -0.003480004}
+        outSlope: {x: -0.00017996476, y: -0.003791353, z: -0.003480004}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: -1.0100012e-10, y: 0.004358108, z: 5.8049756e-11}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -433,7 +487,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -447,8 +501,26 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.28333333
-        value: {x: 0.000000002910383, y: 0.004358102, z: 0.000000011525117}
+        time: 0.41666666
+        value: {x: -0.00001993635, y: 0.0048400043, z: 0.00010000495}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.51666665
+        value: {x: -0.0000070155365, y: 0.0045277406, z: 0.000035199104}
+        inSlope: {x: 0.00011961872, y: -0.0028913796, z: -0.00060002966}
+        outSlope: {x: 0.00011961872, y: -0.0028913796, z: -0.00060002966}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 1.0429486e-10, y: 0.0043581077, z: 1.7341246e-11}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -458,7 +530,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
@@ -470,88 +542,88 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 551352562
+      path: 497532622
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4093087349
+      path: 42057039
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1073412979
+      path: 773667821
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 13646564
+      path: 3711602556
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 551352562
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 4093087349
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1073412979
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 13646564
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 229123567
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3631316538
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 229123567
+      path: 768745800
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3631316538
+      path: 4161501853
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 497532622
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 42057039
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 773667821
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3711602556
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 768745800
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4161501853
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
       isPPtrCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
@@ -559,7 +631,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.4
+    m_StopTime: 0.5833333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -580,7 +652,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.00001
+        value: -0.00003
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -588,8 +660,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: -0.0006004287
+        time: 0.33333334
+        value: 0.0002
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -597,8 +669,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 0.00016
+        time: 0.51666665
+        value: -0.0001
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -606,8 +678,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.4
-        value: 0.00001
+        time: 0.5833333
+        value: -0.00003
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -618,7 +690,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -626,7 +698,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.00322
+        value: 0.00331
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -634,8 +706,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: 0.004563441
+        time: 0.33333334
+        value: 0.00275
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -643,8 +715,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 0.00285
+        time: 0.51666665
+        value: 0.0035
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -652,8 +724,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.4
-        value: 0.00322
+        time: 0.5833333
+        value: 0.00331
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -664,7 +736,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -672,7 +744,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.00112
+        value: -0.00133
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -680,17 +752,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: -0.0009576996
-        inSlope: 0.0015176472
-        outSlope: 0.0015176472
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.28333333
-        value: -0.00069
+        time: 0.33333334
+        value: -0.00078
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -698,8 +761,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.4
-        value: -0.00112
+        time: 0.51666665
+        value: -0.00166
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -0.00133
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -710,7 +782,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -718,7 +790,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 40.012
+        value: 30.375
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -726,8 +798,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: 65.402
+        time: 0.33333334
+        value: 44.741
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -735,17 +807,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 29.195
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: 40.012
+        time: 0.5833333
+        value: 30.375
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -756,7 +819,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -764,7 +827,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 19.897
+        value: 13.148
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -772,8 +835,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: 103.698
+        time: 0.33333334
+        value: 24.085
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -781,17 +844,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 12.433
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: 19.897
+        time: 0.5833333
+        value: 13.148
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -802,7 +856,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -810,7 +864,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 31.796
+        value: 27.89
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -818,8 +872,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: 104.182
+        time: 0.33333334
+        value: 34.623
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -827,17 +881,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 27.534
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: 31.796
+        time: 0.5833333
+        value: 27.89
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -848,7 +893,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -856,7 +901,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -4.447253e-10
+        value: 0.00023
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -864,8 +909,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: -0.0000060862803
+        time: 0.33333334
+        value: 0.00024
+        inSlope: 0.00007741927
+        outSlope: 0.00007741927
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: 0.00033
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -873,17 +927,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: -0.0000013161916
-        inSlope: 0.000026082153
-        outSlope: 0.000026082153
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: -4.447253e-10
+        time: 0.5833333
+        value: 0.00023
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -894,7 +939,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -902,7 +947,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.004645622
+        value: 0.00399
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -910,283 +955,16 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: 0.0047424827
-        inSlope: 0
-        outSlope: 0
+        time: 0.33333334
+        value: 0.004
+        inSlope: 0.00007741995
+        outSlope: 0.00007741995
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 0.004668078
-        inSlope: -0.00038496085
-        outSlope: -0.00038496085
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: 0.004645622
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -1.783127e-11
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.16666667
-        value: -0.0005511827
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.28333333
-        value: -0.00022840846
-        inSlope: 0.0023622117
-        outSlope: 0.0023622117
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: -1.783127e-11
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 2.606
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.16666667
-        value: 17.326
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.28333333
-        value: 8.628
-        inSlope: -63.085716
-        outSlope: -63.085716
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: 2.606
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.108
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.16666667
-        value: 1.176
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.28333333
-        value: 0.534
-        inSlope: -4.5771427
-        outSlope: -4.5771427
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: 0.108
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 4.008
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.16666667
-        value: 4.195
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.28333333
-        value: 4.05
-        inSlope: -0.72000504
-        outSlope: -0.72000504
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: 4.008
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.00028
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.16666667
-        value: 0.00035
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.28333333
-        value: -0.000029494167
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: 0.00028
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.0041
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.16666667
+        time: 0.51666665
         value: 0.00419
         inSlope: 0
         outSlope: 0
@@ -1195,17 +973,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 0.0034599241
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: 0.0041
+        time: 0.5833333
+        value: 0.00399
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1216,7 +985,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1224,7 +993,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.00231
+        value: -0.00224
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1232,8 +1001,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: -0.00155
+        time: 0.33333334
+        value: -0.00229
+        inSlope: -0.00038709614
+        outSlope: -0.00038709614
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: -0.00247
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1241,17 +1019,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: -0.0016421169
-        inSlope: -0.0015791465
-        outSlope: -0.0015791465
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: -0.00231
+        time: 0.5833333
+        value: -0.00224
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1262,7 +1031,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1270,7 +1039,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 44.854
+        value: 36.48
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1278,8 +1047,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: 62.335
+        time: 0.33333334
+        value: 53.249
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1287,17 +1056,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 35.118
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: 44.854
+        time: 0.5833333
+        value: 36.48
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1308,7 +1068,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1316,7 +1076,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -29.123
+        value: -20.614
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1324,8 +1084,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: -79.474
+        time: 0.33333334
+        value: -42.034
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1333,17 +1093,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: -19.458
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: -29.123
+        time: 0.5833333
+        value: -20.614
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1354,7 +1105,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1362,7 +1113,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -40.478
+        value: -34.913
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1370,8 +1121,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: -82.367
+        time: 0.33333334
+        value: -50.274
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1379,17 +1130,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: -34.236
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
-        value: -40.478
+        time: 0.5833333
+        value: -34.913
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1400,7 +1142,310 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -4.447253e-10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.00001
+        inSlope: 0.00009600427
+        outSlope: 0.00009600427
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: 0.00006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: -0
+        inSlope: -0.000000010643085
+        outSlope: -0.000000010643085
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -4.447253e-10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.004645622
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.00445
+        inSlope: -0.001877971
+        outSlope: -0.001877971
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: 0.00364
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: 0.00454
+        inSlope: 0.0025349222
+        outSlope: 0.0025349222
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 0.004645622
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -1.783127e-11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.00005
+        inSlope: 0.0004800002
+        outSlope: 0.0004800002
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: 0.00038
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: -0.00046
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -1.783127e-11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 2.606
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 24.652
+        inSlope: 135.11281
+        outSlope: 135.11281
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: 58.903
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 2.606
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.108
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 1.766
+        inSlope: 15.556801
+        outSlope: 15.556801
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: 6.59
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 0.108
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 4.008
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 4.407
+        inSlope: 3.830402
+        outSlope: 3.830402
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: 7.771
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 4.008
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1416,8 +1461,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: 0
+        time: 0.33333334
+        value: -0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1425,8 +1470,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 0
+        time: 0.41666666
+        value: 0.00001
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1434,7 +1479,16 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.4
+        time: 0.51666665
+        value: 0.00001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
         value: -1.6648322e-10
         inSlope: 0
         outSlope: 0
@@ -1446,7 +1500,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1462,8 +1516,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: 0.00489
+        time: 0.33333334
+        value: 0.00491
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1471,8 +1525,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 0.00499
+        time: 0.41666666
+        value: 0.00539
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1480,7 +1534,16 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.4
+        time: 0.51666665
+        value: 0.00533
+        inSlope: -0.0014399999
+        outSlope: -0.0014399999
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
         value: 0.004968622
         inSlope: 0
         outSlope: 0
@@ -1492,7 +1555,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1508,8 +1571,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: 0.00027
+        time: 0.33333334
+        value: -0.00053
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1517,8 +1580,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: -0.0002
+        time: 0.41666666
+        value: 0.0005
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1526,7 +1589,16 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.4
+        time: 0.51666665
+        value: -0.00038
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
         value: -7.4296954e-13
         inSlope: 0
         outSlope: 0
@@ -1538,7 +1610,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1554,8 +1626,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: 11.497
+        time: 0.33333334
+        value: 36.144
+        inSlope: 121.91521
+        outSlope: 121.91521
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: 53.506
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1563,16 +1644,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 7.853
-        inSlope: -37.66714
-        outSlope: -37.66714
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
+        time: 0.5833333
         value: 2.708
         inSlope: 0
         outSlope: 0
@@ -1584,7 +1656,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1600,8 +1672,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: -0.293
+        time: 0.33333334
+        value: -1.273
+        inSlope: -5.8223996
+        outSlope: -5.8223996
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: -2.429
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1609,16 +1690,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: -0.172
-        inSlope: 1.2428572
-        outSlope: 1.2428572
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
+        time: 0.5833333
         value: -0.003
         inSlope: 0
         outSlope: 0
@@ -1630,7 +1702,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1646,8 +1718,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
-        value: -1.896
+        time: 0.33333334
+        value: -2.302
+        inSlope: -3.036
+        outSlope: -3.036
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: -3.126
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1655,16 +1736,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: -1.877
-        inSlope: 0.15000036
-        outSlope: 0.15000036
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.4
+        time: 0.5833333
         value: -1.861
         inSlope: 0
         outSlope: 0
@@ -1676,7 +1748,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1692,8 +1764,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 0.0000000035506673
+        time: 0.41666666
+        value: 0.000029994022
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: 0.000010556687
+        inSlope: -0.00017996476
+        outSlope: -0.00017996476
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -1.0100012e-10
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1704,7 +1794,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1720,8 +1810,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 0.0043581235
+        time: 0.41666666
+        value: 0.0049900003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: 0.0045805294
+        inSlope: -0.003791353
+        outSlope: -0.003791353
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 0.004358108
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1732,7 +1840,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1748,8 +1856,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: -0.0000000073341653
+        time: 0.41666666
+        value: 0.0005800007
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: 0.00020416616
+        inSlope: -0.003480004
+        outSlope: -0.003480004
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 5.8049756e-11
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1760,7 +1886,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1776,8 +1902,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 12.252
+        time: 0.41666666
+        value: 8.835
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: -11.91
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -3.783
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1788,7 +1932,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1804,8 +1948,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: -0.534
+        time: 0.41666666
+        value: -0.395
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: 0.434
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 0.105
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1816,7 +1978,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1832,8 +1994,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: -2.308
+        time: 0.41666666
+        value: -2.282
+        inSlope: -0.11225824
+        outSlope: -0.11225824
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: -2.318
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -2.26
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1844,7 +2024,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1860,8 +2040,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 0.000000002910383
+        time: 0.41666666
+        value: -0.00001993635
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: -0.0000070155365
+        inSlope: 0.00011961872
+        outSlope: 0.00011961872
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 1.0429486e-10
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1872,7 +2070,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1888,8 +2086,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 0.004358102
+        time: 0.41666666
+        value: 0.0048400043
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: 0.0045277406
+        inSlope: -0.0028913796
+        outSlope: -0.0028913796
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 0.0043581077
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1900,7 +2116,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1916,8 +2132,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 0.000000011525117
+        time: 0.41666666
+        value: 0.00010000495
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: 0.000035199104
+        inSlope: -0.00060002966
+        outSlope: -0.00060002966
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 1.7341246e-11
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1928,7 +2162,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1944,8 +2178,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 20.631
+        time: 0.41666666
+        value: -8.103
+        inSlope: -27.092905
+        outSlope: -27.092905
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: -17.781
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -3.783
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1956,7 +2208,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1972,8 +2224,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 0.895
+        time: 0.41666666
+        value: -0.277
+        inSlope: -1.1129034
+        outSlope: -1.1129034
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: -0.68
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -0.105
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1984,7 +2254,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2000,8 +2270,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: 2.41
+        time: 0.41666666
+        value: 2.278
+        inSlope: 0.13935582
+        outSlope: 0.13935582
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.51666665
+        value: 2.37
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 2.26
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2012,7 +2300,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -2023,7 +2311,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2033,7 +2321,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2043,7 +2331,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2053,7 +2341,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2063,7 +2351,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2073,7 +2361,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2083,7 +2371,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2093,7 +2381,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2103,7 +2391,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2113,7 +2401,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2123,7 +2411,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2133,7 +2421,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2143,7 +2431,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2153,7 +2441,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2163,7 +2451,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2173,7 +2461,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2183,7 +2471,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2193,7 +2481,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: BarmenBones (1)/Armature/Spine/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: BarmenBones/Armature/Spine/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0

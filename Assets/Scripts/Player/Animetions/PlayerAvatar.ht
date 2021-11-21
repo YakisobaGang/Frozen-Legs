@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PlayerAvatar
+  m_BoneTemplate:
+    Chest: Spine2
+    Head: Head
+    LeftHand: Hand.L
+    LeftLowerArm: LowerArm.L
+    LeftShoulder: Shoulder.L
+    LeftUpperArm: UpperArm.L
+    Neck: Neck
+    RightHand: Hand.R
+    RightLowerArm: LowerArm.R
+    RightShoulder: Shoulder.R
+    RightUpperArm: UpperArm.R
+    RightUpperLeg: pelvis
+    Spine: Spine

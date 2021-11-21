@@ -4,6 +4,7 @@ using FMOD.Studio;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Playables;
+using UnityEngine.Timeline;
 using YakisobaGang.Script.Player;
 
 namespace YakisobaGang.Player.Movement
@@ -30,9 +31,12 @@ namespace YakisobaGang.Player.Movement
         private Transform _myTransform;
         private Rigidbody _rigidbody;
         private bool canMove = true;
-        private EventInstance iceSlideInstance;
+        private EventInstance? iceSlideInstance = null;
         private PlayableDirector movementSpellDirector;
         private RagdollController ragdollController;
+        private Animator anim;
+        [SerializeField] private Vector3 velo;
+        
         #region Steup
 
         private void Awake()
@@ -41,6 +45,8 @@ namespace YakisobaGang.Player.Movement
             _myTransform = GetComponent<Transform>();
             _rigidbody = GetComponent<Rigidbody>();
             ragdollController = GetComponent<RagdollController>();
+            anim = GetComponent<Animator>();
+            movementSpellDirector = movementSpell.GetComponent<PlayableDirector>();
         }
 
         private void OnEnable()
@@ -61,6 +67,7 @@ namespace YakisobaGang.Player.Movement
 
         private void Update()
         {
+            velo = _rigidbody.velocity;
             if (!disableDiagonalMovement)
                 return;
 
@@ -76,27 +83,19 @@ namespace YakisobaGang.Player.Movement
 
         private void HandleInputMoveDirection(InputAction.CallbackContext ctx)
         {
-<<<<<<< HEAD
+            if(!canMove)
+                return;
             
             ragdollController.DisableRagdoll();
-            
+            anim.enabled = true;
             movementSpell.SetActive(true);
-            movementSpellDirector ??= movementSpell.GetComponent<PlayableDirector>();
             
             movementSpellDirector.Play();
-            MoveDir();
-=======
-            if (!canMove)
-                return;
-
-            // Adiciona um impulso na direcao que esta olhado
-            _rigidbody.AddForce(_currentDirections.MoveDir * speed, ForceMode.Impulse);
-
-            movementSmoke.SetActive(true);
-            iceSlideInstance = FMODUnity.RuntimeManager.CreateInstance(iceSlideSFX);
-            iceSlideInstance.setParameterByName("StillInMovement", 1);
-            iceSlideInstance.start();
->>>>>>> 229be9850a3ba4a91ada225d896aa94526e932b9
+            movementSpellDirector.stopped += _ =>
+            {
+                MoveDir();
+                anim.enabled = false;
+            };
         }
 
         private void SelectMoveDirection(InputAction.CallbackContext ctx)
@@ -132,33 +131,31 @@ namespace YakisobaGang.Player.Movement
         {
             if (other.collider.CompareTag("Obstacles"))
             {
+                _rigidbody.velocity = Vector3.zero;
+                
                 FMODUnity.RuntimeManager.PlayOneShot(collsionSFX);
                 GameFeelController.ApplyCameraShake();
                 movementSmoke.SetActive(false);
-
-                if (_rigidbody.velocity == Vector3.zero)
-                {
-                    iceSlideInstance.stop(STOP_MODE.ALLOWFADEOUT);
-                    iceSlideInstance.setParameterByName("StillInMovement", 0);
-                    iceSlideInstance.release();
-                }
+                
+                iceSlideInstance?.stop(STOP_MODE.IMMEDIATE);
+                iceSlideInstance?.setParameterByName("StillInMovement", 0f);
+                iceSlideInstance?.release();
+                iceSlideInstance = null;
             }
         }
 
         public void MoveDir()
         {
-            print("OK");
-
             if(!canMove)
                 return;
             
             // Adiciona um impulso na direcao que esta olhado
-            _rigidbody.AddForce(_currentDirections.MoveDir * speed, ForceMode.Impulse);
+            _rigidbody.velocity = (_currentDirections.MoveDir * speed);
             
             movementSmoke.SetActive(true);
-            iceSlideInstance = FMODUnity.RuntimeManager.CreateInstance(iceSlideSFX);
-            iceSlideInstance.setParameterByName("StillInMovement", 1);
-            iceSlideInstance.start();
+            iceSlideInstance ??= FMODUnity.RuntimeManager.CreateInstance(iceSlideSFX);
+            iceSlideInstance?.setParameterByName("StillInMovement", 1f);
+            iceSlideInstance?.start();
         }
     }
 }
