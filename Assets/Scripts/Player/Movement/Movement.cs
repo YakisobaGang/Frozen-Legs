@@ -21,10 +21,10 @@ namespace YakisobaGang.Player.Movement
         [SerializeField] private float rotationSpeed = 0.4f;
         [SerializeField] private Ease easeCurve;
 
-        [Header("Movement VFX"), Space] 
+        [Header("Movement VFX"), Space]
         [SerializeField] private GameObject movementSmoke;
         [SerializeField] private GameObject movementSpell;
-        
+
         private readonly LookDirections _currentDirections = new LookDirections();
         private PlayerInputActions _input;
         private Transform _myTransform;
@@ -76,6 +76,7 @@ namespace YakisobaGang.Player.Movement
 
         private void HandleInputMoveDirection(InputAction.CallbackContext ctx)
         {
+<<<<<<< HEAD
             
             ragdollController.DisableRagdoll();
             
@@ -84,6 +85,18 @@ namespace YakisobaGang.Player.Movement
             
             movementSpellDirector.Play();
             MoveDir();
+=======
+            if (!canMove)
+                return;
+
+            // Adiciona um impulso na direcao que esta olhado
+            _rigidbody.AddForce(_currentDirections.MoveDir * speed, ForceMode.Impulse);
+
+            movementSmoke.SetActive(true);
+            iceSlideInstance = FMODUnity.RuntimeManager.CreateInstance(iceSlideSFX);
+            iceSlideInstance.setParameterByName("StillInMovement", 1);
+            iceSlideInstance.start();
+>>>>>>> 229be9850a3ba4a91ada225d896aa94526e932b9
         }
 
         private void SelectMoveDirection(InputAction.CallbackContext ctx)
@@ -122,7 +135,7 @@ namespace YakisobaGang.Player.Movement
                 FMODUnity.RuntimeManager.PlayOneShot(collsionSFX);
                 GameFeelController.ApplyCameraShake();
                 movementSmoke.SetActive(false);
-                
+
                 if (_rigidbody.velocity == Vector3.zero)
                 {
                     iceSlideInstance.stop(STOP_MODE.ALLOWFADEOUT);
