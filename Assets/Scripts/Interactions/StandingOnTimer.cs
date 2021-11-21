@@ -11,6 +11,7 @@ namespace YakisobaGang.Interactions
         [SerializeField] private bool resetOnExit = false;
         [HideInInspector] public float startTime;
         public UnityEvent<float> onTimeTick;
+        public UnityEvent onTimeRest;
         public UnityEvent onTimeCompleted;
 
 
@@ -46,6 +47,7 @@ namespace YakisobaGang.Interactions
             if (resetOnExit)
             {
                 time = startTime;
+                onTimeRest?.Invoke();
             }
         }
     }
