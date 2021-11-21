@@ -23,7 +23,7 @@ namespace YakisobaGang.Player
         public void DisableRagdoll()
         {
             ragDollIsDisable = true;
-            
+
             foreach (var joint in joints)
             {
                 joint.GetComponent<Collider>().isTrigger = true;
@@ -34,10 +34,10 @@ namespace YakisobaGang.Player
         public void EnableRagdoll()
         {
             ragDollIsDisable = false;
-            
+
             foreach (var joint in joints)
             {
-                joint.GetComponent<Collider>().isTrigger= false;
+                joint.GetComponent<Collider>().isTrigger = false;
             }
         }
     }

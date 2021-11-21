@@ -36,7 +36,7 @@ namespace YakisobaGang.Player.Movement
         private RagdollController ragdollController;
         private Animator anim;
         [SerializeField] private Vector3 velo;
-        
+
         #region Steup
 
         private void Awake()
@@ -83,13 +83,13 @@ namespace YakisobaGang.Player.Movement
 
         private void HandleInputMoveDirection(InputAction.CallbackContext ctx)
         {
-            if(!canMove)
+            if (!canMove)
                 return;
-            
+
             ragdollController.DisableRagdoll();
             anim.enabled = true;
             movementSpell.SetActive(true);
-            
+
             movementSpellDirector.Play();
             movementSpellDirector.stopped += _ =>
             {
@@ -132,11 +132,11 @@ namespace YakisobaGang.Player.Movement
             if (other.collider.CompareTag("Obstacles"))
             {
                 _rigidbody.velocity = Vector3.zero;
-                
+
                 FMODUnity.RuntimeManager.PlayOneShot(collsionSFX);
                 GameFeelController.ApplyCameraShake();
                 movementSmoke.SetActive(false);
-                
+
                 iceSlideInstance?.stop(STOP_MODE.IMMEDIATE);
                 iceSlideInstance?.setParameterByName("StillInMovement", 0f);
                 iceSlideInstance?.release();
@@ -146,12 +146,12 @@ namespace YakisobaGang.Player.Movement
 
         public void MoveDir()
         {
-            if(!canMove)
+            if (!canMove)
                 return;
-            
+
             // Adiciona um impulso na direcao que esta olhado
             _rigidbody.velocity = (_currentDirections.MoveDir * speed);
-            
+
             movementSmoke.SetActive(true);
             iceSlideInstance ??= FMODUnity.RuntimeManager.CreateInstance(iceSlideSFX);
             iceSlideInstance?.setParameterByName("StillInMovement", 1f);
