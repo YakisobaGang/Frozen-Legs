@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using YakisobaGang.Interactions;
 
-namespace YakisobaGang
+namespace YakisobaGang.Interactions
 {
     public class Coletar : MonoBehaviour
     {

@@ -16,5 +16,10 @@ namespace YakisobaGang
         {
             Invoke(nameof(LoadScene), time);
         }
+
+        public void ReloadCurrentScene()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 }

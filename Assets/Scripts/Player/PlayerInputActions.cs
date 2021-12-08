@@ -55,6 +55,15 @@ namespace YakisobaGang.Script.Player
                     ""processors"": """",
                     ""interactions"": ""Hold"",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Pause"",
+                    ""type"": ""Button"",
+                    ""id"": ""0442fb66-886f-4fd9-b683-a3eac5157256"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -277,6 +286,17 @@ namespace YakisobaGang.Script.Player
                     ""action"": ""RoteteCamera"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f237ca61-305e-4273-804b-477e6af60ecf"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -299,6 +319,7 @@ namespace YakisobaGang.Script.Player
             m_Gameplay_SelectMoveDirection = m_Gameplay.FindAction("Select Move Direction", throwIfNotFound: true);
             m_Gameplay_Move = m_Gameplay.FindAction("Move", throwIfNotFound: true);
             m_Gameplay_RoteteCamera = m_Gameplay.FindAction("RoteteCamera", throwIfNotFound: true);
+            m_Gameplay_Pause = m_Gameplay.FindAction("Pause", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -361,6 +382,7 @@ namespace YakisobaGang.Script.Player
         private readonly InputAction m_Gameplay_SelectMoveDirection;
         private readonly InputAction m_Gameplay_Move;
         private readonly InputAction m_Gameplay_RoteteCamera;
+        private readonly InputAction m_Gameplay_Pause;
         public struct GameplayActions
         {
             private @PlayerInputActions m_Wrapper;
@@ -368,6 +390,7 @@ namespace YakisobaGang.Script.Player
             public InputAction @SelectMoveDirection => m_Wrapper.m_Gameplay_SelectMoveDirection;
             public InputAction @Move => m_Wrapper.m_Gameplay_Move;
             public InputAction @RoteteCamera => m_Wrapper.m_Gameplay_RoteteCamera;
+            public InputAction @Pause => m_Wrapper.m_Gameplay_Pause;
             public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -386,6 +409,9 @@ namespace YakisobaGang.Script.Player
                     @RoteteCamera.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRoteteCamera;
                     @RoteteCamera.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRoteteCamera;
                     @RoteteCamera.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRoteteCamera;
+                    @Pause.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnPause;
+                    @Pause.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnPause;
+                    @Pause.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnPause;
                 }
                 m_Wrapper.m_GameplayActionsCallbackInterface = instance;
                 if (instance != null)
@@ -399,6 +425,9 @@ namespace YakisobaGang.Script.Player
                     @RoteteCamera.started += instance.OnRoteteCamera;
                     @RoteteCamera.performed += instance.OnRoteteCamera;
                     @RoteteCamera.canceled += instance.OnRoteteCamera;
+                    @Pause.started += instance.OnPause;
+                    @Pause.performed += instance.OnPause;
+                    @Pause.canceled += instance.OnPause;
                 }
             }
         }
@@ -426,6 +455,7 @@ namespace YakisobaGang.Script.Player
             void OnSelectMoveDirection(InputAction.CallbackContext context);
             void OnMove(InputAction.CallbackContext context);
             void OnRoteteCamera(InputAction.CallbackContext context);
+            void OnPause(InputAction.CallbackContext context);
         }
     }
 }

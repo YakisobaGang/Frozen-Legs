@@ -93,7 +93,6 @@ namespace YakisobaGang.Player.Movement
             movementSpellDirector.Play();
             movementSpellDirector.stopped += _ =>
             {
-                MoveDir();
                 anim.enabled = false;
             };
         }

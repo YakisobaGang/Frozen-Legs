@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1594158392255008964
 Transform:
   m_ObjectHideFlags: 0
@@ -4880,6 +4880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1594158393609319965}
   - component: {fileID: 1594158393609319964}
+  - component: {fileID: 5682755063496555641}
   m_Layer: 0
   m_Name: MovementSpell_VFX
   m_TagString: Untagged
@@ -4896,7 +4897,7 @@ Transform:
   m_GameObject: {fileID: 1594158393609319967}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.7248, y: 1.7248, z: 1.7248}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8412369726122773458}
@@ -4930,6 +4931,36 @@ PlayableDirector:
     - 725a8bd751e08894f80bcfd50a572ed1: {fileID: 1594158392255008967}
     - 1038094e89ab8c445af223a8da57163b: {fileID: 0}
     - c64a230a1a2a60d4380779809711c484: {fileID: 1594158393861030068}
+--- !u!114 &5682755063496555641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594158393609319967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 6e7563ef2005482448182d4424da69e8, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 7a520dc362c39194295545edf15ba859, type: 2}
+          m_TargetAssemblyTypeName: ProjectD.GameEvents.GameEvent, Assembly-CSharp
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1594158393861030068
 GameObject:
   m_ObjectHideFlags: 0
@@ -4947,7 +4978,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1594158393861030059
 Transform:
   m_ObjectHideFlags: 0
@@ -9879,7 +9910,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.4705161, y: 1.44}
+  m_Size: {x: 1.1904178, y: 4.58}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -9984,7 +10015,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.4705161, y: 1.44}
+  m_Size: {x: 1.1904178, y: 4.58}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
