@@ -42,6 +42,6 @@ namespace YakisobaGang.Player
                 pauseMenuPanel.gameObject.SetActive(false);
                 Time.timeScale = 1;
             }
-        } 
+        }
     }
 }
