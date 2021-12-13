@@ -11,7 +11,7 @@ namespace YakisobaGang
         // Update is called once per frame
         void Update()
         {
-            transform.Rotate(0, Time.deltaTime * 10,  0, Space.Self);
+            transform.Rotate(0, Time.deltaTime * 10, 0, Space.Self);
         }
     }
 }

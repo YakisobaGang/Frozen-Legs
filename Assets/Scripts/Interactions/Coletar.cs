@@ -6,8 +6,8 @@ namespace YakisobaGang.Interactions
     public class Coletar : MonoBehaviour
     {
         private bool jafoi = true;
-        
-        public static event Action <int> OnPickup; 
+
+        public static event Action<int> OnPickup;
         void OnTriggerEnter(Collider other)
         {
             if (other.CompareTag("Player"))

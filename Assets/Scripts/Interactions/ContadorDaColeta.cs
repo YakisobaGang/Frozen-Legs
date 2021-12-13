@@ -8,7 +8,7 @@ namespace YakisobaGang.Interactions
 {
     public class ContadorDaColeta : MonoBehaviour
     {
-        
+
         static int contador = 0;
         public GameObject wave1;
         public GameObject wave2;
@@ -24,18 +24,18 @@ namespace YakisobaGang.Interactions
 
         private void Update()
         {
-                 if (contador == 3)
-                 {
-                    wave1.SetActive(true);
-                    wave2.SetActive(true);
-                    wave3.SetActive(true);
-                    wave4.SetActive(true);
-                }
-                 if (contador == 7)
-                {
-                    vitoria.SetActive(true);
-                    contador = 0;
-                }
+            if (contador == 3)
+            {
+                wave1.SetActive(true);
+                wave2.SetActive(true);
+                wave3.SetActive(true);
+                wave4.SetActive(true);
+            }
+            if (contador == 7)
+            {
+                vitoria.SetActive(true);
+                contador = 0;
+            }
 
         }
 
